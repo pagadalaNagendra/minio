@@ -1,0 +1,49 @@
+body{
+    color: #ffffff;
+}
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #fff;
+    max-width: 200px;
+    margin: 20px;
+    overflow: auto;
+    border-radius: 10px;
+}
+.files{
+    display: flex;
+    
+}
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+.thumbnail button{
+    width: 50px;
+    margin: 0 10px;
+}
+.name_download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.name_download span{
+    width: 100px;
+    overflow: auto;
+}
+.content-container{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.content-container div button{
+    margin: 0 10px;
+}
+.link{
+    color: #070606;
+    text-decoration: none;
+}
+
